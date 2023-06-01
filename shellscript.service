@@ -1,0 +1,9 @@
+[Unit]
+Description=My Shell Script
+
+[Service]
+ExecStart=/home/docker/script.sh
+
+[Install]
+WantedBy=multi-user.target
+
